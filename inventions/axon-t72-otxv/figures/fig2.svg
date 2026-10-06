@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+<rect width="800" height="600" fill="#fff"/>
+<rect x="50" y="150" width="100" height="60" fill="none" stroke="#111" stroke-width="2"/>
+<text x="100" y="185" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Client</text>
+<rect x="220" y="80" width="120" height="70" fill="none" stroke="#111" stroke-width="2"/>
+<text x="280" y="120" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">API Gateway (12)</text>
+<rect x="400" y="80" width="120" height="70" fill="none" stroke="#111" stroke-width="2"/>
+<text x="460" y="120" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Rate Limiter</text>
+<rect x="580" y="150" width="120" height="70" fill="none" stroke="#111" stroke-width="2"/>
+<text x="640" y="190" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Backend Store</text>
+<rect x="400" y="220" width="120" height="60" fill="none" stroke="#111" stroke-width="2"/>
+<text x="460" y="255" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Fingerprint (14)</text>
+<rect x="220" y="300" width="120" height="60" fill="none" stroke="#111" stroke-width="2"/>
+<text x="280" y="335" font-family="Helvetica, Arial, sans-serif" font-size="12" text-anchor="middle">Token (16)</text>
+<line x1="150" y1="180" x2="220" y2="115" stroke="#111" stroke-width="2"/>
+<polygon points="220,110 230,115 220,120" fill="#111"/>
+<line x1="340" y1="115" x2="400" y2="115" stroke="#111" stroke-width="2"/>
+<polygon points="400,110 410,115 400,120" fill="#111"/>
+<line x1="520" y1="115" x2="580" y2="185" stroke="#111" stroke-width="2"/>
+<polygon points="575,180 585,190 580,175" fill="#111"/>
+<line x1="460" y1="150" x2="460" y2="220" stroke="#111" stroke-width="2"/>
+<polygon points="455,220 460,230 465,220" fill="#111"/>
+<line x1="280" y1="150" x2="280" y2="300" stroke="#111" stroke-width="2"/>
+<polygon points="275,300 280,310 285,300" fill="#111"/>
+<line x1="280" y1="360" x2="400" y2="255" stroke="#111" stroke-width="2"/>
+<polygon points="395,250 405,260 400,245" fill="#111"/>
+<text x="400" y="580" font-family="Helvetica, Arial, sans-serif" font-size="14" text-anchor="middle">FIG. 2</text>
+</svg>

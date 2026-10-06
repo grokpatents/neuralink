@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+  <rect width="800" height="600" fill="#ffffff"/>
+  <!-- Roof battens -->
+  <rect x="100" y="200" width="600" height="12" fill="none" stroke="#111" stroke-width="2"/>
+  <rect x="100" y="280" width="600" height="12" fill="none" stroke="#111" stroke-width="2"/>
+  <rect x="100" y="360" width="600" height="12" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- Batten labels -->
+  <text x="720" y="210" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111">Batten (30)</text>
+  <line x1="710" y1="206" x2="680" y2="206" stroke="#111" stroke-width="1"/>
+  <!-- Robot arm base on gantry -->
+  <rect x="50" y="80" width="80" height="40" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="20" y="75" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111">Gantry (14)</text>
+  <!-- Arm segments -->
+  <line x1="90" y1="100" x2="220" y2="180" stroke="#111" stroke-width="8"/>
+  <line x1="220" y1="180" x2="340" y2="240" stroke="#111" stroke-width="6"/>
+  <!-- Joints -->
+  <circle cx="220" cy="180" r="8" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="340" cy="240" r="6" fill="none" stroke="#111" stroke-width="2"/>
+  <!-- End effector with vacuum cups -->
+  <rect x="320" y="230" width="60" height="30" fill="none" stroke="#111" stroke-width="2"/>
+  <line x1="330" y1="260" x2="330" y2="275" stroke="#111" stroke-width="2"/>
+  <line x1="370" y1="260" x2="370" y2="275" stroke="#111" stroke-width="2"/>
+  <circle cx="330" cy="278" r="4" fill="none" stroke="#111" stroke-width="2"/>
+  <circle cx="370" cy="278" r="4" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="300" y="310" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111">Vacuum cups (26)</text>
+  <!-- Tile being placed -->
+  <rect x="340" y="275" width="80" height="50" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="350" y="340" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111">Tile (24)</text>
+  <!-- Camera on arm -->
+  <rect x="250" y="165" width="25" height="15" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="200" y="155" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111">Cameras (16)</text>
+  <line x1="262" y1="165" x2="262" y2="140" stroke="#111" stroke-width="1"/>
+  <!-- Torque driver -->
+  <rect x="400" y="250" width="20" height="35" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="430" y="280" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111">Driver (20)</text>
+  <line x1="420" y1="267" x2="450" y2="267" stroke="#111" stroke-width="1"/>
+  <!-- Fastener -->
+  <line x1="410" y1="285" x2="410" y2="295" stroke="#111" stroke-width="3"/>
+  <text x="380" y="305" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111">Fastener (22)</text>
+  <!-- Controller box -->
+  <rect x="600" y="50" width="100" height="60" fill="none" stroke="#111" stroke-width="2"/>
+  <text x="610" y="85" font-family="Helvetica, Arial, sans-serif" font-size="14" fill="#111">Controller (18)</text>
+  <!-- Leader lines to controller -->
+  <line x1="650" y1="110" x2="650" y2="150" stroke="#111" stroke-width="1"/>
+  <!-- Caption -->
+  <text x="400" y="580" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#111" text-anchor="middle">FIG. 1</text>
+</svg>
